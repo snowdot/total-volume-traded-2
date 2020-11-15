@@ -1,0 +1,51 @@
+.bar_back {
+    fill: var(--pink);
+    stroke: transparent;
+    stroke-width: 2px;
+}
+
+.bar_front {
+    fill: transparent;
+    stroke: var(--black);
+    stroke-width: 2px;
+}
+
+.bar_label {
+    fill: var(--black);
+    font-size: 14px;
+    font-weight: 600;
+    text-anchor: middle;
+}
+
+.xAxis-label,
+.yAxis-label {
+    fill: var(--gray);
+    font-size: 12px;
+    font-weight: 500;
+    text-anchor: middle;
+}
+
+.domain {
+    stroke-width: 2px;
+}
+
+.tick line {
+    stroke: transparent;
+}
+
+.tick text {
+    font-family: var(--family);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+    .xAxis-label,
+    .yAxis-label {
+        font-size: 14px;
+    }
+
+    .tick text {
+        font-size: 12px;
+    }
+}
